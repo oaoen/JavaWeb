@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!--form:用于提交请求
+		<form>常用属性:
+	name:用于定义表单的名称
+	action:用于规定提交表单时向何处发送表单数据。
+	method:用于规定提交的方式。一般取值 POST或GET
+-->
+<form action=" " name="login" method="get">
+	text类型 <br>
+	用户名：<input type="text" placeholder="请输入英文名">
+	<hr>
+	pssword类型<br>
+	密码：<input type="password" placeholder="请输入密码">
+	<hr>
+	radio类型 单选<br> 
+	是否记录密码:<input type="radio" name="rmpwd">是<input type="radio" name="rmpwd">否
+	<hr>
+	checkbox 类型 多选<br>
+	喜好:
+	<input type="checkbox" name="">打球
+	<input type="checkbox" name="">唱歌
+	<input type="checkbox" name="">表演
+	<input type="checkbox" name="">赚钱
+	<hr>
+	button 按钮 <br>
+	<input type="button" value="点我">
+	<hr>
+	
+	hidden 隐藏类型<br>
+	<input type="hidden" name="id" value="123456">
+	<hr>
+	
+	file 文件类型<br>
+	请上传头像:<input type="file">
+	<hr>
+	
+	<!--将表单内容提交到后台-->
+	submit 提交类型<br>
+	<input type="submit" value="提交">
+	<br>
+	<hr>
+	<!--只清楚form标签内input的内容  -->
+	reset重置
+	<input type="reset" value="重置">
+	<br>
+	<hr>
+	图片类型<br>
+	
+	<input type="image" src="signup.gif">
+	<hr>
+	<!-- multiple="multiple"多选属性 -->
+	select标签 单选<br>
+	<select >
+		<option>广州</option>
+		<option>深圳</option>
+		<option>澳门</option>
+		<option>香港</option>
+	</select>
+	
+	
+	多行文本标签<br>
+	好评:<textarea row="10" col="40"></textarea>
+	
+	<br>
+	</form>
+</body>
+</html>
